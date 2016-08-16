@@ -10,6 +10,7 @@ Python  is a strong script language. today, we are going to use is to fetch the 
 with pop3.
 
 ###python script
+
     import poplib  
     import email
 
