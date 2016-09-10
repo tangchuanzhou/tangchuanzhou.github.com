@@ -18,7 +18,7 @@ with pop3.
 
     emailServer = poplib.POP3('pop.163.com')  
     emailServer.user('xxxxxx@163.com')  
-    emailServer.pass_('xxxxxxxx)  
+    emailServer.pass_('xxxxxxxx')  
 
     emailMsgNum, emailSize = emailServer.stat()
     print 'email number is %d and size is %d'%(emailMsgNum, emailSize)  
